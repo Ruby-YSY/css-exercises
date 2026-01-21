@@ -3,9 +3,10 @@ body {
 }
 
 img {
+  display: block;
   width: 100px;
   height: 100px;
-  margin: 0 25%;
+  margin: 0 auto;
 }
 
 .container-flex {
@@ -31,6 +32,7 @@ img {
   justify-content: space-around;
   align-items: flex-start;
   flex: 0 1 auto;
+  gap: 52px;
 }
 
 .plants-item {
