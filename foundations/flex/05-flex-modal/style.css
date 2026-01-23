@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -15,11 +16,35 @@ body {
   justify-content: center;
 }
 
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+  flex-direction: row;
+  gap: 16px;
+}
+
+.container {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.header-section {
+  align-self: stretch;
+  flex: 1 1 auto;
+}
+
+.header {
+  font-weight: 700;
 }
 
 .icon {
@@ -30,9 +55,8 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex: 0 0 auto;
+  align-self: flex-start;
 }
 
 .close-button {
@@ -43,17 +67,19 @@ body {
   font-size: 16px;
   height: 24px;
   width: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-left: auto;
 }
 
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+}
+
+.confirmation-button {
+  gap: 4px;
 }
 
 button.continue {
