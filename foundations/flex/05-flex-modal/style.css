@@ -44,6 +44,7 @@ body {
 }
 
 .header {
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -79,6 +80,7 @@ button {
 }
 
 .confirmation-button {
+  margin-top: 8px;
   gap: 4px;
 }
 
