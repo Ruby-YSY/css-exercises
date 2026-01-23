@@ -38,8 +38,15 @@ input {
   flex-direction: column;
 }
 
-.header {
+.header,
+.footer {
   flex-direction: row;
+}
+
+.content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .left-links {
